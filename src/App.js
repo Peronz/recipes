@@ -8,9 +8,7 @@ import RecipeDetails from './components/RecipeDetails';
 class App extends Component {
   state = {
     recipes: recipes,
-    url:"https://www.food2fork.com/api/search?key=76fe571edb470397f262688e88066e2c",
-    base_url: "https://www.food2fork.com/api/search?key=76fe571edb470397f262688e88066e2c",
-    details_id:35384,
+    recipe_id:35382,
     pageIndex: 1,
     search:"",
     query:"&q=",
@@ -18,32 +16,7 @@ class App extends Component {
   
   };
 
-  async getRecipes(){
-    try{
-      const data = await fetch(this.state.url);
-      const jsonData = await data.json();
-      if(jsonData.recipes.length === 0){
-        this.setState(()=>{
-          return {error:"your search did not return any results"}
-        })
-      } else{
-        this.setState(()=>{
-          return {recipes:jsonData.recipes}
-        })
-      }
-      this.setState({
-        recipes:jsonData.recipes
-      }) 
-
-    }catch(error){
-      console.log(error);
-    }
-    
-  }
- componentDidMount(){
-  this.getRecipes()
-  }
-
+  
   displayPage = (index) =>{
     switch(index){
       default:
@@ -78,12 +51,7 @@ class App extends Component {
   }
   handleSubmit = (e) => {
     e.preventDefault();
-    const{base_url,query,search} = this.state;
-    this.setState(()=>{
-      return {url:`${base_url}${query}${search}`,search:""}
-    },() => {
-      this.getRecipes();
-    })
+   
   }
 
   render() {
