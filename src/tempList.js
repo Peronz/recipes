@@ -1,50 +1,134 @@
 export const recipes = [
   {
-    recipe_id: 35382,
-    image: "http://www.prolingua-travel.hr/upload/katalog/2015-10-18_purica-s-mlincima.jpg",
+    recipe_id: 1,
+    image: "img/purica s mlincima.JPG",
     title: "Purica s mlincima",
+    ingredients: [
+      "5 kg narezane paprike",
+      "1.5 kg narezanog patlidžana",
+      "1 glavica češnjaka",
+      "3 l vruće vode",
+      "2 dcl vinskog octa",
+      "3 ljute feferone",
+      "2 žlice senfa",
+      "2.5 dcl ulja",
+      "2 žličice konzervansa",
+      "velika šaka svježeg lišća peršina"
+    ],
     publisher: "ComCo Recipes",
     
   },
   {
-    recipe_id: 35383,
-    image: "https://media.kaufland.com/images/PPIM/AP_Content_1010/std.lang.all/68/46/Asset_1616846.jpg",
+    recipe_id: 2,
+    image: "img/ajvar.jpg",
     title: "Ajvar",
+    ingredients: [
+      "5 kg narezane paprike",
+      "1.5 kg narezanog patlidžana",
+      "1 glavica češnjaka",
+      "3 l vruće vode",
+      "2 dcl vinskog octa",
+      "3 ljute feferone",
+      "2 žlice senfa",
+      "2.5 dcl ulja",
+      "2 žličice konzervansa",
+      "velika šaka svježeg lišća peršina"
+    ],
     publisher: "ComCo Recipes",
    
   },
   {
-    recipe_id: 35384,
-    image: "http://domacirecepti.net/wp-content/uploads/2016/05/zagrebacke-kremsnite.jpg",
+    recipe_id: 3,
+    image: "img/zagrebacke-kremsnite.jpg",
     title: "Zagrebacka kremsnita",
+    ingredients: [
+      "5 kg narezane paprike",
+      "1.5 kg narezanog patlidžana",
+      "1 glavica češnjaka",
+      "3 l vruće vode",
+      "2 dcl vinskog octa",
+      "3 ljute feferone",
+      "2 žlice senfa",
+      "2.5 dcl ulja",
+      "2 žličice konzervansa",
+      "velika šaka svježeg lišća peršina"
+    ],
     publisher: "ComCo Recipes",
     
   },
   {
-    recipe_id: 35385,
-    image: "https://sasina-kuhinja.com/wp-content/uploads/2018/09/X_3LOGO-1.jpg",
+    recipe_id: 4,
+    image: "img/burek.jpg",
     title: "Burek",
+    ingredients: [
+      "5 kg narezane paprike",
+      "1.5 kg narezanog patlidžana",
+      "1 glavica češnjaka",
+      "3 l vruće vode",
+      "2 dcl vinskog octa",
+      "3 ljute feferone",
+      "2 žlice senfa",
+      "2.5 dcl ulja",
+      "2 žličice konzervansa",
+      "velika šaka svježeg lišća peršina"
+    ],
     publisher: "ComCo Recipes",
     
   },
   {
-    recipe_id: 35386,
-    image: "https://gastro.24sata.hr/media/img/1c/b6/cb68ef62a0db99bdf642.jpeg",
+    recipe_id: 5,
+    image: "img/strukli.jpg",
     title: "Štrukli",
+    ingredients: [
+      "5 kg narezane paprike",
+      "1.5 kg narezanog patlidžana",
+      "1 glavica češnjaka",
+      "3 l vruće vode",
+      "2 dcl vinskog octa",
+      "3 ljute feferone",
+      "2 žlice senfa",
+      "2.5 dcl ulja",
+      "2 žličice konzervansa",
+      "velika šaka svježeg lišća peršina"
+    ],
     publisher: "ComCo Recipes",
     
   },
   {
-    recipe_id: 35387,
-    image: "https://static.kraljzara.hr/cache/0X300/blog/92/7.jpg",
+    recipe_id: 6,
+    image: "img/pastrva.jpg",
     title: "Pastrva na žaru",
+    ingredients: [
+      "5 kg narezane paprike",
+      "1.5 kg narezanog patlidžana",
+      "1 glavica češnjaka",
+      "3 l vruće vode",
+      "2 dcl vinskog octa",
+      "3 ljute feferone",
+      "2 žlice senfa",
+      "2.5 dcl ulja",
+      "2 žličice konzervansa",
+      "velika šaka svježeg lišća peršina"
+    ],
     publisher: "ComCo Recipes",
     
   },
   {
-    recipe_id: 35388,
-    image: "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2016/09/baklava.jpg?itok=kkrGDfdk",
+    recipe_id: 7,
+    image: "img/baklava.jpg",
     title: "Baklava",
+    ingredients: [
+      "5 kg narezane paprike",
+      "1.5 kg narezanog patlidžana",
+      "1 glavica češnjaka",
+      "3 l vruće vode",
+      "2 dcl vinskog octa",
+      "3 ljute feferone",
+      "2 žlice senfa",
+      "2.5 dcl ulja",
+      "2 žličice konzervansa",
+      "velika šaka svježeg lišća peršina"
+    ],
     publisher: "ComCo Recipes",
     
   },

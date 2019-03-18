@@ -5,7 +5,6 @@ export class Recipe extends Component {
     const{
       image,
       title,
-      publisher,
       recipe_id
     } = this.props.recipe;
     const {handleDetails} = this.props;
@@ -21,9 +20,6 @@ export class Recipe extends Component {
           />
           <div className="card-body text-capitalize">
           <h6>{title}</h6>
-          <h6 className="text-warning text-slanted">
-          provided by {publisher}
-          </h6>
           </div>
           <div className="card-footer">
           <button type="button"
