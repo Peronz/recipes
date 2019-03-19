@@ -14,8 +14,8 @@ export class Recipe extends Component {
           <div className="card">
           <img 
           src={image}
-          className="img-card-top"
-          style={{height:"20rem", display:"flex"}}
+          className="d-block w-100"
+          style={{height:"20rem", display:"flex", boxSizing: "border-box"}}
           alt="recipe"
           />
           <div className="card-body text-capitalize">

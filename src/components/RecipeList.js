@@ -9,7 +9,7 @@ export class RecipeList extends Component {
     return (
         <React.Fragment> 
         <button type="button"
-          className="btn btn-primary text-capitalize" onClick={()=>handleIndex(3)}
+          className="btn btn-primary mb-3 text-capitalize" onClick={()=>handleIndex(3)}
           >Contact us</button>
         <button type="button"
           className="btn btn-danger text-capitalize" style={{float: 'right'}} onClick={()=>handleIndex(4)}

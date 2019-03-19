@@ -31,7 +31,7 @@ export class Menu extends Component {
          render() {
              const {handleIndex} = this.props;
            return (
-               <div className="container" style={{ marginLeft:"40%"}}> 
+               <div className="container" style={{ marginLeft:"20%"}}> 
                <div  className="dropdown" style = {{alignItems:"center", background:"red", width:"200px", display:"block" }} >
                 <div className="button" style = {{boxSizing: "border-box",color: "white", fontSize:"20px", textAlign:"center", background:"red", width:"200px", display:"block" }} onClick={this.showDropdownMenu}> Menu</div>
        

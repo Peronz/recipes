@@ -95,6 +95,7 @@
       display: flex;
       flex-wrap: wrap;
       text-align: center;
+      box-sizing: border-box;
       width: 100%;
       
     }
