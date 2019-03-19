@@ -6,6 +6,14 @@ import RecipeDetails from './components/RecipeDetails';
 import PreparationDetails from './components/PreparationDetails';
 import Contact from './components/Contact';
 import Support from './components/Support';
+import Deserts from './components/menu/Deserts';
+import Meat from './components/menu/Meat';
+import Fish from './components/menu/Fish';
+import Healthy from './components/menu/Healthy';
+import Soups from './components/menu/Soups';
+import Special from './components/menu/Special';
+import Diet from './components/menu/Diet';
+
 
 
 
@@ -36,7 +44,21 @@ class App extends Component {
       case 3:
         return <Contact handleIndex={this.handleIndex}/>
       case 4:
-        return <Support handleIndex={this.handleIndex}/>      
+        return <Support handleIndex={this.handleIndex}/>
+      case 5:
+        return <Diet handleIndex={this.handleIndex}/> 
+      case 6:
+        return <Special handleIndex={this.handleIndex}/> 
+      case 7:
+        return <Healthy handleIndex={this.handleIndex}/> 
+      case 8:
+        return <Meat handleIndex={this.handleIndex}/> 
+      case 9:
+        return <Soups handleIndex={this.handleIndex}/> 
+      case 10:
+        return <Fish handleIndex={this.handleIndex}/> 
+      case 11:
+        return <Deserts handleIndex={this.handleIndex}/>       
 
     }
   };

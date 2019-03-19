@@ -5,3 +5,14 @@ body{
 .text-slanted{
   font-family: 'Courgette', cursive;
 }
+@media(max-width:800px){
+  body{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  
+    
+  }
+
+}  
